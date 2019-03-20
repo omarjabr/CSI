@@ -46,7 +46,7 @@ export default class RenewPassword extends Component {
           <View style={styles.inputContainer}>
             
             <TextInput style={styles.inputs}
-                placeholder="Password"
+                placeholder="New Password"
                 secureTextEntry={true}
                 underlineColorAndroid={'transparent'}
                 onChangeText={(password) => this.setState({password})}/>
