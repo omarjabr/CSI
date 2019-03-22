@@ -57,6 +57,10 @@ export default class Login extends Component {
           <TouchableHighlight style={styles.buttonContainer} onPress={() => navigate('RenewPassword', {})}>
               <Text>Forgot your password?</Text>
           </TouchableHighlight>
+
+          <TouchableHighlight style={styles.buttonContainer} onPress={() => navigate('Index', {})}>
+              <Text>GO TO INDEX</Text>
+          </TouchableHighlight>
   
         </View>
       );
