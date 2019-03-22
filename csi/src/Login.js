@@ -59,7 +59,7 @@ export default class Login extends Component {
           </TouchableHighlight>
 
           <TouchableHighlight style={styles.buttonContainer} onPress={() => navigate('Index', {})}>
-              <Text>GO TO INDEX</Text>
+              <Text>Press here if Network Failed!!</Text>
           </TouchableHighlight>
   
         </View>
